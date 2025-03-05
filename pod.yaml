@@ -4,12 +4,10 @@ kind: Pod
 metadata:
   name: mynginx
   lables: 
-    app: mynginx
+    app: myapp
 spec:
  containers:
    - name: mynginx
      image: nginx:latest
      ports:
        - containerPort: 80
-     
-...
