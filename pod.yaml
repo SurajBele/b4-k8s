@@ -10,4 +10,4 @@ spec:
      image: nginx:latest
      ports:
       - name: httpd
-      containerPort: 80
+        containerPort: 80
