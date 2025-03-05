@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector:
     labels:
-    app: myapp
+     app: myapp
   ports:
   - port: 80
     targetPort: 8080
