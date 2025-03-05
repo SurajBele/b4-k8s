@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    Matlabels:
+    Matchlabels:
     app: myapp
   ports:
   - port: 80
