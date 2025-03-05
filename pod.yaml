@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: mynginx
   lables: 
-    name: mynginx
+    app: mynginx
 spec:
  containers:
    - name: mynginx
