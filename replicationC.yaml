@@ -12,5 +12,6 @@ spec:
        app: myapp
    spec:
       containers:
-        - name: 
+        - name: httpd
+          image: httpd
 
