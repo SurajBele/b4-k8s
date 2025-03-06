@@ -4,4 +4,4 @@ metadata:
   name: myreplicationC
   labels:
    app: myapp
-sp
+spec: 
