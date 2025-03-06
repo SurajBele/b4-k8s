@@ -8,3 +8,4 @@ spec:
  template:
    metadata:
      name: myreplicationC
+     labe
