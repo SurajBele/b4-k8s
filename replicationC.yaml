@@ -6,4 +6,5 @@ metadata:
    app: myapp
 spec: 
  template:
-   
+   metadata:
+     name: my
