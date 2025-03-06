@@ -7,10 +7,10 @@ metadata:
 spec: 
   replicas: 3
   selector:
-     app:
+     app: myapp
   template:
     metadata:
-      name: myreplicationCpod
+      name: myreplicationC
       labels:
         app: myapp
     spec:
