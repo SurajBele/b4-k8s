@@ -9,7 +9,7 @@ spec:
   selector:
   template:
     metadata:
-        name: myreplicationCpod
+      - name: myreplicationCpod
         labels:
         app: myapp
      spec:
