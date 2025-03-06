@@ -7,4 +7,4 @@ metadata:
 spec: 
  template:
    metadata:
-     name: my
+     name: myreplicationC
