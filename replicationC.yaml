@@ -10,5 +10,5 @@ spec:
      name: myreplicationC
      labels:
        app: myapp
-    spec:
+   spec:
 
