@@ -7,12 +7,12 @@ metadata:
 spec: 
   replicas: 3
   selector:
-  template:
-     metadata:
-        name: myreplicationCpod
-        labels:
-        app: myapp
-     spec:
+   template:
+      metadata:
+         name: myreplicationCpod
+         labels:
+          app: myapp
+      spec:
        containers:
          - name: httpd
            image: httpd
