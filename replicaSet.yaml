@@ -4,16 +4,16 @@ metadata:
   name: myreplicaset
   labels:
     app: myapp
-    key: value
+    env: dev
 spec:
   replicas: 3
   selector:
     matchLabels:
-      key: value
+      app: myapp
   template:
     metadata:
       labels:
-        key: value
+        app: myapp
     spec:
       containers:
         - name: myapp
