@@ -5,7 +5,7 @@ metadata:
   labels:
    app: myapp
 spec: 
- replica: 3
+  replica: 3
 selector:
  template:
    metadata:
