@@ -6,11 +6,11 @@ metadata:
    app: myapp
 spec: 
   replica: 3
-selector:
- template:
-   metadata:
-     name: myreplicationCpod
-     labels:
+  selector:
+  template:
+     metadata:
+      name: myreplicationCpod
+       labels:
        app: myapp
    spec:
       containers:
