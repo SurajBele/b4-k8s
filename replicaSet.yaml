@@ -11,8 +11,7 @@ spec:
     matchLabels:
       app: myapp
     matchExpresion:
-     [ ]
-  template:
+      template:
     metadata:
       labels:
         app: myapp
