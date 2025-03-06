@@ -12,11 +12,11 @@ spec:
         name: myreplicationCpod
         labels:
         app: myapp
-   spec:
-      containers:
-        - name: httpd
-          image: httpd
-          ports:
+     spec:
+       containers:
+         - name: httpd
+           image: httpd
+           ports:
             - name: httpd-port
               containerPort: 80
 
