@@ -4,6 +4,7 @@ metadata:
   name: myrc
   labels:
    app: myapp
+   
 spec: 
   replicas: 3
   selector:
