@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        tier: frontend
     spec:
       containers:
         - name: myapp
