@@ -5,13 +5,13 @@ metadata:
   labels:
    app: myapp
 spec: 
-  replica: 3
+  replicas: 3
   selector:
   template:
      metadata:
-      name: myreplicationCpod
-       labels:
-       app: myapp
+        name: myreplicationCpod
+        labels:
+        app: myapp
    spec:
       containers:
         - name: httpd
