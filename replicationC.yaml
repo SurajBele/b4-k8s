@@ -6,7 +6,7 @@ metadata:
    app: myapp
 spec: 
  replica: 3
- 
+selector:
  template:
    metadata:
      name: myreplicationCpod
