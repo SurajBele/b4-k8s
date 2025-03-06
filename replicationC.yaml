@@ -5,6 +5,7 @@ metadata:
   labels:
    app: myapp
 spec: 
+ replica:
  template:
    metadata:
      name: myreplicationCpod
