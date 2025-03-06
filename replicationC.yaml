@@ -10,7 +10,7 @@ spec:
      app: myapp
   template:
     metadata:
-      name: myreplicationC
+      name: myapp
       labels:
         app: myapp
     spec:
