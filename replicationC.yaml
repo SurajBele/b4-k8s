@@ -9,9 +9,9 @@ spec:
   selector:
    template:
       metadata:
-         name: myreplicationCpod
-         labels:
-          app: myapp
+        name: myreplicationCpod
+        labels:
+        app: myapp
       spec:
        containers:
          - name: httpd
