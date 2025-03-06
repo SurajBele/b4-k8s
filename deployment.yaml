@@ -12,7 +12,7 @@ spec:
         app: mydeploy
     spec:
       containers:
-      - name: myapp
+      - name: httpd
         image: httpd
         ports:
         - containerPort: 80
