@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: tier: frontend-myreplicaset
+  name: frontend-myreplicaset
   labels:
     app: myapp
     tier: frontend
