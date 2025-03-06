@@ -5,11 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: mydeploy
   template:
     metadata:
       labels:
-        app: myapp
+        app: mydeploy
     spec:
       containers:
       - name: myapp
