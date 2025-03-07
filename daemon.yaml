@@ -9,11 +9,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      tier 
+      tier: monitoring
   template:
     metadata:
       labels:
-        tier: onitoring
+        tier: monitoring
     spec:
       containers:
         - name: myapp
