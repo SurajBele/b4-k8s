@@ -4,16 +4,16 @@ metadata:
   name: monitoring
   labels:
     app: myapp
-    tier: frontend
+    tier: monitoring
 spec:
   replicas: 3
   selector:
     matchLabels:
-      tier: frontend
+      tier: onitoring
   template:
     metadata:
       labels:
-        tier: frontend
+        tier: onitoring
     spec:
       containers:
         - name: myapp
