@@ -9,7 +9,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      tier: onitoring
+      tier 
   template:
     metadata:
       labels:
