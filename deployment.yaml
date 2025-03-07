@@ -8,7 +8,9 @@ spec:
   replicas: 5
   strategy:
     type: RollingUpdate
-    
+    rollingUpdate:
+      maxSurge: 3
+      maxUnavailable: 1
   selector:
     matchLabels:
       app: mydeploy
