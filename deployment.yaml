@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: httpd:alpine
+        image: 
         ports:
         - containerPort: 80
