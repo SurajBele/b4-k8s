@@ -6,7 +6,8 @@ metadata:
     app: mydeploy
 spec:
   replicas: 5
-  statergy:
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: mydeploy
