@@ -6,6 +6,7 @@ metadata:
     app: mydeploy
 spec:
   replicas: 5
+  stat
   selector:
     matchLabels:
       app: mydeploy
