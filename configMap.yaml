@@ -4,4 +4,4 @@ metadata:
   name: myapp
 data:
   password: admin123
-  department: 
+  department: dev
