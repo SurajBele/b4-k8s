@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: variables
 data:
-  key
+  password: admin123
   department: dev
