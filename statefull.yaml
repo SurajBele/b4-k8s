@@ -13,9 +13,9 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: myapp
-        image: mariadb
-        ports:
+        - name: myapp
+          image: mariadb
+          ports:
         - containerPort: 3306
           name: web
         env: 
