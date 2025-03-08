@@ -20,5 +20,6 @@ spec:
           name: web
         env: 
         - name: MARIADB_ROOT_PASSWORD
-          valuefromConfig:
+          valuefrom:
+          configmapK
             key: password
