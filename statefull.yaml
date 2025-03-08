@@ -23,6 +23,6 @@ spec:
           valuefrom:
           configMapkeyref:
             key: password
-          valueFrom:
-              secretKeyRef:
-                key:
+          # valueFrom:
+          #     secretKeyRef:
+          #       key: password
