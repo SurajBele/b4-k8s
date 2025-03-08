@@ -19,5 +19,5 @@ spec:
         - containerPort: 80
           name: web
         env: 
-        ame: MARIADB_ROOT_PASSWORD
+        - name: MARIADB_ROOT_PASSWORD
           value: admin123
