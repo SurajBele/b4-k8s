@@ -6,7 +6,6 @@ metadata:
     app: myapp
     tier: monitoring
 spec:
-  replicas: 3
   selector:
     matchLabels:
       tier: monitoring
