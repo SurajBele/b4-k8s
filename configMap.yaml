@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: myapp
 data:
-  password
+  password: admin123
+  department: 
