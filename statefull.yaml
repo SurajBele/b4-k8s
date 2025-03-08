@@ -21,4 +21,4 @@ spec:
         env: 
         - name: MARIADB_ROOT_PASSWORD
           valuefromConfig:
-            key
+            key: password
