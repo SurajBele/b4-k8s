@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 
+        image: mariadb
         ports:
         - containerPort: 80
           name: web
