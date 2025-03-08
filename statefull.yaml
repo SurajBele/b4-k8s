@@ -19,10 +19,10 @@ spec:
             - containerPort: 3306
                name: web
           env: 
-        - name: MARIADB_ROOT_PASSWORD
-          valuefrom:
-            configMapKeyRef:
-              key: password
+           - name: MARIADB_ROOT_PASSWORD
+             valuefrom:
+              configMapKeyRef:
+                  key: password
           # valueFrom:
           #     secretKeyRef:
           #       key: password
