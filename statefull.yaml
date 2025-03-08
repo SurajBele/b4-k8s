@@ -3,7 +3,7 @@ kind: StatefulSet
 metadata:
   name: mystatefulset
 spec:
-  replicas: 2
+ eplicas: 2
   selector:
     matchLabels:
       app: myapp
