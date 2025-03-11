@@ -13,6 +13,6 @@ spec:
         path: "/"
         backend:
           service:
-            name: <Service>
+            name: apple-home-service
             port: 
               number: <Port>
