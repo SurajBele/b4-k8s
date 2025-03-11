@@ -9,11 +9,11 @@ spec:
   template:
     metadata:
       labels:
-        app: cbz-home
+        app: apple-home
     spec:
       containers:
-      - name: cbz-home
-        image: httpd
+      - name: apple-home
+        image: httpd:alpine
         ports:
         - containerPort: 80
 ---
