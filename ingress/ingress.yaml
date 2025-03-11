@@ -11,7 +11,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/mobile/index.html
+        path: "/mobile/
         backend:
           service:
             name: <Service>
