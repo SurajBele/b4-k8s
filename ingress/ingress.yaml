@@ -23,6 +23,6 @@ spec:
         path: "/mobile/"
         backend:
           service:
-            name: apple-mobleservice
+            name: apple-mobile-serivce
             port: 
               number: 80
