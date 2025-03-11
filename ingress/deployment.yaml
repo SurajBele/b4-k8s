@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: -home
+  name: apple-home
 spec:
   selector:
     matchLabels:
-      app: cbz-home
+      app: apple-home
   template:
     metadata:
       labels:
