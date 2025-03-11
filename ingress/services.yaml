@@ -5,7 +5,7 @@ metadata:
   name: apple-home-service
 spec:
   selector:
-    app: apple
+    app: apple-home
   ports:
-  - port: <Port>
+  - port: 80
     targetPort: <Target Port>
