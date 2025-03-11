@@ -24,14 +24,14 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: cbz-mobile
+      app: apple-mobile
   template:
     metadata:
       labels:
-        app: cbz-mobile
+        app: apple-mobile
     spec:
       containers:
-      - name: cbz-mobile
+      - name: apple-mobile
         image: nginx
         ports:
         - containerPort: 80
