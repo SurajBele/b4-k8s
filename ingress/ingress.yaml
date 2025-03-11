@@ -20,7 +20,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/mobile"
+        path: "/mobile/"
         backend:
           service:
             name: apple-home-service
