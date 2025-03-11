@@ -2,9 +2,15 @@ apiVersion: v1
 kind: Service
 metadata:
   name: apple-home-service
+  labels:
+    app: my-svc-home
+    env: devops
 spec:
   selector:
-    app: apple-home
+    app: cbz-home
   ports:
-  - port: 80
-    targetPort: 80
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
+
