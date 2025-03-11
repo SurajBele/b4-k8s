@@ -15,4 +15,4 @@ spec:
           service:
             name: apple-home-service
             port: 
-              number: <Port>
+              number: 80
