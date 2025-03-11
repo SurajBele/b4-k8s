@@ -16,3 +16,13 @@ spec:
             name: apple-home-service
             port: 
               number: 80
+   - host: apple.com
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: apple-home-service
+            port: 
+              number: 80
