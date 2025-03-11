@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: apple-home-service
   labels:
-    app: my-svc-home
+    app: apple-home-service
     env: devops
 spec:
   selector:
-    app: cbz-home
+    app: apple-home
   ports:
     - name: http
       protocol: TCP
