@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myapp
+  name: myvolume
   labels:
-    name: myapp
+    name: myvolume
 spec:
   containers:
-  - name: myapp
-    image: <Image>
+  - name: myvolume
+    image: nginx
     resources:
       limits:
         memory: "128Mi"
         cpu: "500m"
     ports:
-      - containerPort: <Port>
+      - containerPort: 80
