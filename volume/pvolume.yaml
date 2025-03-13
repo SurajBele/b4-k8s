@@ -9,7 +9,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
-  storageClassName: standerd
+  storageClassName: manual
   hostPath:
     path: "/mnt/data"
   
