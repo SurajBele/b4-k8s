@@ -8,7 +8,7 @@ spec:
   volumes: 
     - name: mypv
       persistentVolumeClaim:
-      namepvc
+        - name: mypvc
   containers:
   - name: myvolume
     image: nginx
