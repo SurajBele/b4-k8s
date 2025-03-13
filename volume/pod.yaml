@@ -19,4 +19,4 @@ spec:
     ports:
       - containerPort: 80
     volumeMounts:
-      hostPath: "/mnt/data"
+      mountpath: "/mnt/data"data"
