@@ -20,3 +20,4 @@ spec:
       - containerPort: 80
     volumeMounts:
       - mountPath: "/mnt/data"
+        name: mypv
