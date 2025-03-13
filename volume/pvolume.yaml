@@ -10,4 +10,6 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   storageClassName: standerd
+  hostPath:
+    path: "/mnt/data"
   
