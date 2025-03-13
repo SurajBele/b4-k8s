@@ -7,7 +7,7 @@ metadata:
 spec:
   volumes: 
     -  mypv
-    pers
+    persistentVolumeClai
   containers:
   - name: myvolume
     image: nginx
