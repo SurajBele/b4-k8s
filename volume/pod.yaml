@@ -5,7 +5,7 @@ metadata:
   labels:
     name: myvolume
 spec:
-  volume: 
+  volumes: 
   containers:
   - name: myvolume
     image: nginx
