@@ -6,7 +6,7 @@ metadata:
     name: myvolume
 spec:
   volumes: 
-    - 
+    -  mypv
   containers:
   - name: myvolume
     image: nginx
