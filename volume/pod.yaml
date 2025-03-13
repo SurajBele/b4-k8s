@@ -19,5 +19,5 @@ spec:
     ports:
       - containerPort: 80
     volumeMounts:
-      - mountPath: "/mnt/data"
+      - mountPath: "/usr/share/nginx/html"
         name: mypv
