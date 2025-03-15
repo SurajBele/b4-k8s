@@ -5,8 +5,8 @@ metadata:
 subjects:		       #define user details 
 - kind: User		   #user
   name: suraj		   #user name
-  apiGroup: rbac.authorization.k8s.io/v1
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
   name: myrole
-  apiGroup: rbac.authorization.k8s.io/v1
+  apiGroup: rbac.authorization.k8s.io
