@@ -8,6 +8,6 @@ subjects:		       #define user details
   apiGroup: "rbac.authorization.k8s.io/v1"
 
 RoleRef:
- kind: Role
+  kind: Role
  name: myrole
  apiGroup: "rbac.authorization.k8s.io/v1"
