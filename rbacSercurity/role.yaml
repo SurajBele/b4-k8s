@@ -4,6 +4,6 @@ metadata:
   name: myrole
 rules:
   - apiGroups: [""]
-    resources:
+    resources: ["pods"]
     verbs: 
 
