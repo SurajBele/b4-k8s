@@ -3,6 +3,7 @@ kind: Role
 metadata:
   name: myrole
 rules:
+  - apiGroups: [""]
   resources:
   verbs: 
 
