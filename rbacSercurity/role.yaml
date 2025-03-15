@@ -3,5 +3,6 @@ kind: Role
 metadata:
   name: myrole
 rules:
-
+  resources:
+  verbs: 
 
