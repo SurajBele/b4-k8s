@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apple-home
+spec:
+  selector:
+    matchLabels:
+      app: apple-home
+  template:
+    metadata:
+      labels:
+        app: apple-home
+    spec:
+      containers:
+      - name: apple-home
+        image: httpd:alpine
+        ports:
+        - containerPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apple-mobile
+spec:
+  selector:
+    matchLabels:
+      app: apple-mobile
+  template:
+    metadata:
+      labels:
+        app: apple-mobile
+    spec:
+      containers:
+      - name: apple-mobile
+        image: nginx
+        ports:
+        - containerPort: 80
