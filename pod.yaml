@@ -9,7 +9,8 @@ spec:
    - name: mynginx
      image: nginx:latest
      resources:
-      re
+      request:
+        memory: 
       limits:
         memory: "128Mi"
         cpu: "500m"
