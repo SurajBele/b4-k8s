@@ -12,3 +12,5 @@ spec:
       - name: httpd
         containerPort: 80
       - name: nginxport
+        containerPort: 8080
+  -
