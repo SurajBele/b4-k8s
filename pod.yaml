@@ -20,4 +20,12 @@ spec:
         containerPort: 80
 ---
 apiVersion: v1
-kind: Ser
+kind: Service
+metadata:
+  name: myapp
+spec:
+  selector:
+    app: myapp
+  ports:
+  - port: <Port>
+    targetPort: <Target Port>
