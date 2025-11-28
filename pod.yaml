@@ -27,5 +27,5 @@ spec:
   selector:
     app: myapp
   ports:
-  - port: <Port>
-    targetPort: <Target Port>
+  - port: 80
+    targetPort: 80
