@@ -14,4 +14,4 @@ spec:
       - name: nginxport
         containerPort: 8080
    - name: apche2
-     image
+     image: apache2
