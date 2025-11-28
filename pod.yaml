@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp
+  name: mynginx
 spec:
   selector:
     app: myapp
