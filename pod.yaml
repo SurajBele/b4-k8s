@@ -15,8 +15,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mynginx-svc
+  name: mynginx-svc1
 spec:
+  type: NodePort
   selector:
     app: myapp
   ports:
