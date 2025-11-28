@@ -18,6 +18,6 @@ spec:
      ports:
       - name: httpd
         containerPort: 80
-      - name: nginxport
+      - name: tomcatport
         containerPort: 8080
 
