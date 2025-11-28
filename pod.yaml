@@ -9,11 +9,12 @@ spec:
    - name: mynginx
      image: nginx:latest
      resources:
-      request:
-        memory: 
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
+     request:
+       memory: "254Mi"
+       cpu: "200m"
+     limits:
+       memory: "128Mi"
+       cpu: "500m"
      ports:
       - name: httpd
         containerPort: 80
