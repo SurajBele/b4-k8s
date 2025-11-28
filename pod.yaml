@@ -8,7 +8,7 @@ spec:
  containers:
    - name: mynginx
      image: nginx:latest
-         resources:
+     resources:
       limits:
         memory: "128Mi"
         cpu: "500m"
