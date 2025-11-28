@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       tier: frontend
-    
+    matche
   template:
     metadata:
       labels:
