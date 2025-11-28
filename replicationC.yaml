@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myrc
   labels:
-   app: myapp2
+   app: myrrd
    
 spec: 
   replicas: 3
