@@ -12,9 +12,6 @@ spec:
       limits:
         memory: "128Mi"
         cpu: "500m"
-      request:
-        memory: "54Mi"
-        cpu: "200m"
      ports:
       - name: httpd
         containerPort: 80
