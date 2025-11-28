@@ -19,4 +19,4 @@ spec:
       - name: httpd
         containerPort: 80
 ---
-A
+apiVersion: v1
